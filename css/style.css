@@ -1,0 +1,483 @@
+* {
+    color: inherit;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Handlee', cursive;
+    font-size: 200;
+    text-align: center;
+}
+
+header {
+    font-weight: bold;
+    background-size: contain;
+    }
+
+.logo {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto;
+    padding: 1em;
+}
+
+
+.contactate {
+    text-align: right; 
+    margin: 10px; 
+    color: #636262;
+    font-family: 'Open Sans Condensed', sans-serif;  
+}
+
+.seguinos {
+    text-align: left;
+    margin: 10px;
+    float: left;
+    padding: 1em;
+    font-size: 15px;
+    color: #636262;
+    font-family: 'Open Sans Condensed', sans-serif;  
+}
+
+
+.seguinos a {
+    width: 70px;
+    height: 70px;
+    /*como agrando los iconos de redes?*/
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    display: inline-block; 
+    align-content: space-between;
+    text-align: right;
+    margin: 10px;
+    font-size: 14pt;
+}
+
+li a {
+    color: #636262;
+}
+
+li a:hover {
+    color: #08ceb2;
+    transition:all .5s ease-in-out;
+}
+
+h2 {
+        color: #636262;
+        font-family: 'Open Sans Condensed', sans-serif;  
+        width: 80px;
+    }
+    
+a {
+        color: #636262;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 100;
+        list-style-type: square;
+    }
+
+
+header img {
+    width: 100%;
+    height: 50%;
+}
+
+.nav-link {
+    padding: 1em;
+    display: inline-block;
+}
+
+.invitaciones {
+    object-fit: scale-down;
+    display: block;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.invitacion1 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.invitacion1:hover {
+    transform: scale(1.5);
+}
+
+.invitacion2 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.invitacion2:hover {
+    transform: scale(1.5);
+}
+
+.invitacion3 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.invitacion3:hover {
+    transform: scale(1.5);
+}
+
+.invitacion4 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.invitacion4:hover {
+    transform: scale(1.5);
+}
+
+.souvenirs {
+    object-fit: scale-down;
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+
+.souvenir1 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.souvenir1:hover {
+    transform: scale(1.5);
+}
+
+.souvenir2 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.souvenir2:hover {
+    transform: scale(1.5);
+}
+
+.souvenir3 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.souvenir3:hover {
+    transform: scale(1.5);
+}
+
+.souvenir4 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.souvenir4:hover {
+    transform: scale(1.5);
+}
+
+.bolsitas {
+    object-fit: scale-down;
+    display: grid;
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+
+.bolsita1 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.bolsita1:hover {
+    transform: scale(1.5);
+}
+
+.bolsita2 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.bolsita2:hover {
+    transform: scale(1.5);
+}
+
+.bolsita3 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.bolsita3:hover {
+    transform: scale(1.5);
+}
+
+.bolsita4 {
+    transition: all 3s;
+    border-radius: 20px;
+}
+
+.bolsita4:hover {
+    transform: scale(1.5);
+}
+
+p, label, legend {
+        color: #636262;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+h3, p {
+        display: inline-block;
+    }
+
+fieldset {
+    border: hidden;
+}
+
+.textarea {
+    display: flex;
+}
+
+.grilla {
+    object-fit: scale-down;
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+    grid-template-rows: 420px 420px 420px 420px;
+    justify-content: center;
+}
+
+.marino {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.marino:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.minnie {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.minnie:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.unicornio {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.unicornio:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.conitos {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.conitos:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.stickers {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.stickers:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.cumple15 {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.cumple15:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.bautismo1 {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.bautismo1:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.casamiento {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.casamiento:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.velasbautismo {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.velasbautismo:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.velascomunion {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.velascomunion:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.velasprimerano {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.velasprimerano:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.bautismo2 {
+    transition: all 3s;
+    filter: blur(0) grayscale(100%);
+    border-radius: 20px;
+}
+
+.bautismo2:hover {
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+textarea {
+    width:400px;
+    height:200px;
+    border-radius: 10px;
+    background: #08ceb2;
+    border: none;
+}
+
+label {
+    color: #08ceb2;
+}
+
+.cajanombre {
+    width:400px;
+    height:30px;
+    border-radius: 10px;
+    background: #08ceb2;
+    border: none;
+}
+
+.cajaemail {
+    width:400px;
+    height:30px;
+    border-radius: 10px;
+    background: #08ceb2;
+    border: none;
+}
+
+.boton {
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    background: #08ceb2;
+    border: none;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  
+footer {
+    font-weight: bold;
+    background-size: contain;
+    background: linear-gradient(to bottom, white, #08ceb2) ;
+    padding: 5px;
+    }
+
+.card img {
+        width: 95%;
+        height: 50%;
+        border-radius: 20px;
+        margin: 8px; 
+}
+    
+.card-title {
+        font-family: 'Handlee', cursive;
+        font-size: 20px;
+        padding: 1em;
+        margin-top: -1.5em;
+        color: #08ceb2;
+}
+    
+.card-text {
+        font-family: 'Open Sans Condensed', sans-serif;  
+        font-size: 18px;
+        padding: 1em;
+        margin-top: -1.5em;
+        color: #636262;
+} 
+    
+.boton-1 {
+        padding: 1em;
+        margin-top: auto;
+}
+    
+.card {
+        display: inline-block;
+        width: 100%;
+        justify-content: center;
+        padding: 1.2em;
+        margin: 0.5em;
+        /*como hago para centrar los 4 cards*/
+}
+
+    
+section {
+    padding: 1.5em;
+}
+
+.presentacion {
+    padding: 2em;
+    margin: 1em;
+    font-family: 'Open Sans Condensed', sans-serif;  
+    font-size: 18px;
+}
